@@ -1,0 +1,111 @@
+# ----------------------
+# ASP.NET Core (.NET)
+# ----------------------
+
+# Build
+bin/
+obj/
+out/
+artifacts/
+
+# VS & Rider
+.vs/
+.idea/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Logs
+*.log
+Logs/
+log/
+*.svclog
+
+# Publish
+publish/
+*.publish.xml
+*.azurePubxml
+*.pubxml
+*.publishproj
+
+# Entity Framework / DB
+*.dbmdl
+*.mdf
+*.ldf
+*.ndf
+*.bak
+*.sqlite
+
+# Secrets
+secrets.json
+appsettings.*.json
+*.pfx
+*.key
+
+# ReSharper, NCrunch, Coverlet, etc.
+_ReSharper*/
+*.ncrunch*
+*.dotCover
+coverage*.json
+coverage*.xml
+*.coverage
+*.opendb
+*.VC.db
+
+# ----------------------
+# React (Node.js)
+# ----------------------
+
+# Dependencies
+**/node_modules/
+
+# Build output
+**/build/
+**/dist/
+
+# Config
+*.env
+*.env.local
+*.env.development.local
+*.env.test.local
+*.env.production.local
+
+# Logs & Caches
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+.cache/
+.vite/
+
+# OS files
+*.DS_Store
+Thumbs.db
+
+# Optional
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# ----------------------
+# Others
+# ----------------------
+
+# IDEs
+.vscode/
+*.code-workspace
+
+# Temp
+~$*
+*~
+*.tmp
+
+# Misc
+*.tgz
+*.gz
+*.zip
+*.tar
+
+# Don't ignore your own packages folder build rules
+!**/packages/build/
