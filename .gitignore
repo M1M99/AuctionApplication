@@ -107,5 +107,4 @@ pnpm-lock.yaml
 *.zip
 *.tar
 
-# Don't ignore your own packages folder build rules
-!**/packages/build/
+
